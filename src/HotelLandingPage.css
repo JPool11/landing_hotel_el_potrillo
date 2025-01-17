@@ -23,6 +23,7 @@
 /* Estilos para el Navbar */
 .navbar {
     position: absolute;
+    display: flex;
     padding: 30px;
     width: 95.5%;
     background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
