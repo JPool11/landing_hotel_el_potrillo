@@ -160,28 +160,48 @@ const HotelLandingPage = () => {
         </div>
       </section>
 
-      {/* Contact Form */}
-      <section className="contact-form">
-        <h2>Contáctanos</h2>
-        <form>
-          <label htmlFor="name">Nombre:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label htmlFor="email">Correo Electrónico:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label htmlFor="message">Mensaje:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
-
       {/* Google Maps Section */}
       <section className="map">
         <h2>Encuéntranos</h2>
+        <div>
+          Estamos ubicados en el municipio de El Peñol Antioquia, via Guatapé, <a href="https://www.google.com/maps/place/Hotel+El+Potrillo/@6.2279514,-75.2553029,17z/data=!3m1!4b1!4m9!3m8!1s0x8e441e75b912fb45:0x717f335e2e4b25fd!5m2!4m1!1i2!8m2!3d6.2279514!4d-75.2553029!16s%2Fg%2F11l0ft7n1z?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D"> ¡Somos Hotel el Potrillo!</a>
+        </div>
         <div id="google-map-placeholder">
           {/* Aquí se puede insertar el script de Google Maps */}
+        </div>
+      </section>
+
+      {/* Contact Form */}
+      <section className="contact">
+        <div className="contact-text">
+          <h2>¿Eres una agencia de viajes o planeas hospedar un grupo en El Peñol o Guatapé?</h2>
+          <p>
+            Contáctanos para obtener información detallada sobre <strong>Hotel El Potrillo</strong>. Te proporcionaremos todos los detalles que necesitas: <strong>precios competitivos</strong>, disponibilidad de <strong>habitaciones cómodas</strong>, servicios exclusivos, y mucho más. 
+            Disfruta de nuestra <strong>hospitalidad única</strong> y vive una experiencia inolvidable en el corazón de <strong>El Peñol</strong> y <strong>Guatapé</strong>.
+          </p>
+          <p>
+            Puedes escribirnos fácilmente por medio de nuestro formulario de contacto o directamente por <a href="https://wa.me/573145042008?text=Hola,%20me%20gustaría%20cotizar%20la%20estadía%20para%20un%20grupo%20o%20agencia" target="_blank" className="whatsapp">
+              <i className="fab fa-whatsapp"></i> WhatsApp
+            </a>.
+          </p>
+          <p>
+            ¡Estamos listos para brindarte una gran experiencia!
+          </p>
+        </div>
+        <div className="contact-form">
+          <h2>Contáctanos</h2>
+          <form>
+            <label htmlFor="name">Nombre:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label htmlFor="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label htmlFor="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
         </div>
       </section>
 
