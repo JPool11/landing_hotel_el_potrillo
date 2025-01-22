@@ -14,6 +14,8 @@ const HotelLandingPage = () => {
     "/images/habitacion1.jpg",
     "/images/habitacion2.jpg",
     "/images/habitacion3.jpg",
+    "/images/habitacion4.jpg",
+    "/images/habitacion5.jpg",
   ];
 
   const amenitiesImages = [
@@ -137,7 +139,7 @@ const HotelLandingPage = () => {
         <div className="slider-amenities">
           <button className="prev-button" onClick={prevAmenitiesSlide}>&lt;</button>
           <img
-            src={amenitiesImages[currentSlide]}
+            src={amenitiesImages[currentAmenitiesSlide]}
             alt= "Hotel El Potrillo - El Peñol - Guatapé, piscina, jacuzzi, turco, restaurante, bar, zona de descanso."
             className="slider-image-amenities"
           />
