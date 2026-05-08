@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/landing_hotel_el_potrillo/",
+  base: "/",
 
   server: {
     host: "::",
