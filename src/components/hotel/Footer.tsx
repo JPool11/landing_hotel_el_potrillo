@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="bg-foreground text-background py-16">
     <div className="max-w-7xl mx-auto px-6 lg:px-10 grid md:grid-cols-3 gap-10">
       <div>
-        <img src={logo} alt="Hotel El Potrillo" className="h-14 w-auto mb-4 brightness-0 invert opacity-90" />
+        <img src={logo} alt="Hotel El Potrillo" className="h-14 w-auto mb-4" />
         <p className="text-sm text-background/70 leading-relaxed max-w-xs">
           Hotel boutique en El Peñol y Guatapé. Confort frente al embalse.
         </p>
@@ -47,7 +47,16 @@ const Footer = () => (
           rel="noopener noreferrer"
           className="hover:text-primary-glow"
         >
-          Jhan Pool A. Triana
+          Jhan Pool Agudelo Triana 
+        </a>
+        {" | "}
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-primary-glow"
+        >
+          JPool Systems Lab.
         </a>
       </p>
     </div>
