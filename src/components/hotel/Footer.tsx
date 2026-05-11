@@ -51,12 +51,12 @@ const Footer = () => (
         </a>
         {" | "}
         <a
-          href="#"
+          href="https://www.jpooltech.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-primary-glow"
         >
-          JPool Systems Lab.
+          JPool Tech.
         </a>
       </p>
     </div>
